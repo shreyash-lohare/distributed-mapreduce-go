@@ -1,3 +1,21 @@
 pkg/
 api.key
 *-handin.tar.gz
+
+# Credentials
+api.key
+
+# Go build artifacts
+*.so
+*.exe
+
+# MapReduce executables
+src/main/mrmaster
+src/main/mrworker
+src/main/mrsequential
+
+# Generated MapReduce files
+src/main/mr-tmp/
+src/main/mr-out-*
+src/main/mr-[0-9]*
+src/main/mr-*-*
