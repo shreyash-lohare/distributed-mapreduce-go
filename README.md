@@ -3,7 +3,10 @@
 An independent implementation of a distributed MapReduce framework,
 based on MIT 6.824 Spring 2020 Lab 1.
 
-## Results
+
+## Test Results
+
+![MapReduce test results](docs/test-results.png)
 
 Passed all five provided test categories:
 
